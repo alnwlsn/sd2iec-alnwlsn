@@ -1,0 +1,10 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `c:/Users/alnwlsn/Downloads/sd2iec-current-sources(1).tar/sd2iec-current-sources/sd2iec-1.0.0atentdead0-29-gb8572fe'
+echo "ERROR: Please use make.exe CONFIG=... to specify at least one config file."
+make.exe: Leaving directory `c:/Users/alnwlsn/Downloads/sd2iec-current-sources(1).tar/sd2iec-current-sources/sd2iec-1.0.0atentdead0-29-gb8572fe'
+ 
+process_begin: CreateProcess(NULL, scripts/configparser.pl --confdata config, ...) failed.
+process_begin: CreateProcess(NULL, "", ...) failed.
+make (e=87): The parameter is incorrect.
+make.exe: *** [missing_conf] Error 87
+
